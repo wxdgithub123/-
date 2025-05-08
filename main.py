@@ -116,7 +116,6 @@ class JavaVulnerabilityDetector:
 - 每个漏洞类型单独分析后综合判断
 - 选择最可能的那个
 - 不要添加任何解释说明
-- 可以着重考虑一下是不是有CWE-400，CWE-284   
 """
 
     def detect_vulnerabilities(self, code: str, file_path: str) -> Dict:
